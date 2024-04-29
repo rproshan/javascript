@@ -34,7 +34,7 @@ if (true) {
     const username = "roshan"
     if (username === "roshan") {
         const website = "youtube"
-        console.log(username + website); 
+        //console.log(username + website); 
         console.log(website);
     }
     
@@ -44,17 +44,21 @@ if (true) {
 
 // +++++++++ interesting ++++++++++
 
-addOne(5)
+console.log(addOne(5));
 
 function addOne(num) {
     return num + 1
 }
 
-
+// addTwo(5)
 const addTwo = function (num){
     return num + 2
 }
 addTwo(5)
+
+
+
+
 
 
 
